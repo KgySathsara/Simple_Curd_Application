@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Employees DataTables CRUD (Create Read Update and Delete)</title>
+<title>Employees DataTables CRUD </title>
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" >
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 10 Ajax DataTables CRUD (Create Read Update and Delete) </h2>
+                <h2>Employees DataTables CRUD (Create Read Update and Delete) </h2>
             </div>
             <div class="pull-right mb-2">
                 <a class="btn btn-success" onClick="add()" href="javascript:void(0)"> Create Employee</a>
